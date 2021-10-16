@@ -1,0 +1,67 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-decoration: underline;
+  font-size: 48px;
+}
+#image {
+  width: 500px;
+}
+#img-div {
+  background-color: rgb(155, 151, 151);
+  display: flex;
+  justify-content: center;
+}
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 40px;
+  font-size: 20px;
+}
+#quote {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 100px;
+}
+footer {
+  text-align: center;
+  background-color: rgb(155, 151, 151);
+  color: black;
+  font-size: 22px;
+  padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    text-align: center;
+  }
+  #image {
+    width: 420px;
+  }
+  #image-caption {
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+  }
+  #tribute-info {
+    font-size: 16px;
+    margin: 80px 20px;
+  }
+  #quote {
+    font-size: 16px;
+    padding: 10px;
+  }
+  footer {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
