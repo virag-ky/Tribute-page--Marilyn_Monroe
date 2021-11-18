@@ -1,6 +1,6 @@
 body {
   box-sizing: border-box;
-  margin: 0;
+  margin: 0px;
   background-color: black;
   color: white;
 }
@@ -34,18 +34,19 @@ h1 {
   margin-bottom: 100px;
 }
 footer {
+  width: 100%;
   text-align: center;
   background-color: rgb(155, 151, 151);
   color: black;
   font-size: 22px;
-  padding: 10px;
+  padding: 8px;
 }
 @media only screen and (max-width: 600px) {
   h1 {
     text-align: center;
   }
   #image {
-    width: 420px;
+    width: 300px;
   }
   #image-caption {
     text-align: center;
@@ -54,7 +55,8 @@ footer {
   }
   #tribute-info {
     font-size: 16px;
-    margin: 80px 20px;
+    margin: 80px auto;
+    padding: 15px;
   }
   #quote {
     font-size: 16px;
